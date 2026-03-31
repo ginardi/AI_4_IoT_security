@@ -1,50 +1,60 @@
-# AI for IoT Security
+# AI for IoT Security: Anomaly Detection and Threat Analysis
 
-This project explores the application of data analysis and AI techniques to cybersecurity scenarios in IoT environments.
+This project applies data analysis and machine learning techniques to detect anomalous behavior and potential cyber threats in IoT network traffic (IoT-23 dataset).
 
 ## Overview
-The project was developed in a university context and focuses on analyzing IoT-related data to identify potential security issues, anomalous behavior, and patterns relevant to cyber risk.
+The project focuses on analyzing IoT network data to identify malicious patterns, abnormal behaviors, and security-relevant signals.
 
-It reflects my broader interests in:
-- cybersecurity and threat analysis
-- AI-based data analysis
-- anomaly detection and risk interpretation
+It combines:
+- cybersecurity domain knowledge (threats, attack patterns)
+- data analysis and machine learning techniques
+- structured interpretation of results from a risk perspective
 
 ## Objectives
-- analyze IoT data to identify security-relevant patterns
-- explore anomaly detection and clustering techniques
-- apply structured data analysis workflows to cybersecurity problems
-- interpret results from a risk and security perspective
+- detect anomalous and potentially malicious IoT activity
+- analyze patterns in network traffic data
+- apply clustering and classification techniques
+- interpret results in a cybersecurity and risk context
 
 ## Methods & Techniques
-- Data preprocessing and cleaning
-- Exploratory data analysis (EDA)
+- Data preprocessing and feature selection
+- Exploratory Data Analysis (EDA)
 - Clustering and anomaly detection
+- Basic classification models
 - Visualization of patterns and behaviors
-- Basic machine learning approaches (if applicable)
+
+## Dataset
+- IoT-23 dataset (IoT network traffic for intrusion detection)
 
 ## Tech Stack
 - Python
 - Jupyter Notebook
-- Data analysis libraries (e.g. pandas, numpy, matplotlib)
+- pandas · numpy · matplotlib
 
 ## Project Structure
-- IoT_Final.ipynb   (main analysis notebook)
+- IoT_Final.ipynb (main analysis notebook)
 - README.md
 
+## Key Results (High-Level)
+- identification of anomalous patterns in IoT traffic
+- separation of benign vs suspicious behavior
+- insights into potential attack patterns
+
+## LLM & AI Evaluation Relevance
+This project is directly relevant to AI training and LLM evaluation tasks:
+
+- evaluating correctness of cybersecurity-related AI outputs
+- detecting hallucinations in technical explanations
+- validating reasoning in anomaly detection scenarios
+- improving AI-generated responses in cybersecurity contexts
+
 ## Notes on Execution
-Due to memory constraints (e.g., Google Colab RAM limits), running the entire pipeline in a single execution may not always be possible.
+Due to memory constraints (e.g., Google Colab RAM limits), the full pipeline may not run in a single execution.
 
-The notebook can be executed step-by-step to reproduce results without crashes.
+The notebook can be executed step-by-step to reproduce results.
 
-## Key Learning Outcomes
-- applied AI and data analysis techniques to a cybersecurity context
-- explored anomaly detection in IoT environments
-- developed structured analytical workflows
-- strengthened ability to interpret technical results from a risk perspective
-
-## Relevance
-This project is relevant for:
-- cybersecurity analysis
-- AI-assisted threat detection
-- LLM evaluation in technical domains (e.g., assessing correctness of cybersecurity explanations)
+## Learning Outcomes
+- applied AI techniques to cybersecurity problems
+- developed anomaly detection workflows
+- strengthened ability to interpret technical results critically
+- connected data analysis with real-world cyber risk scenarios
