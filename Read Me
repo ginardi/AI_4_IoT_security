@@ -1,0 +1,7 @@
+Due to the memory limits of Google Colab, our main notebook could not be executed from start to finish in a single run. When we tried to run the full pipeline (all preprocessing, visualizations, model training, clustering, anomaly detection, and the alternative dataset analysis) in one notebook, Colab repeatedly crashed with an “out of RAM” error and automatically restarted the runtime.
+
+For this reason, we are providing two versions of the code:
+
+A single, complete notebook containing the entire project in one place. This is the “master” version, but with the standard Colab runtime it cannot be executed fully in one shot because of RAM exhaustion.
+
+Two separate notebooks, obtained by splitting the complete code into logical parts. Each of these can be run to completion within Colab’s available memory, so they allow you to reproduce all the experiments and results without crashes.
